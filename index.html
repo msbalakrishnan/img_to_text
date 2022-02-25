@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- source for tessact js  -->
+	<script src="https://cdn.rawgit.com/naptha/tesseract.js/0.2.0/dist/tesseract.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="getin">
+		<div class="cur">
+		<h1>image to text convertr..</h1>
+		<h2>Using Tesseract js . </h2>
+		</div>
+		<br>
+		<!-- form .... -->
+		<form action=""  >
+			<div class="box">
+				<label for="imgs" style="font-size: large; text-align: center;"> URl of img ..</label>
+			<input type="text"   name="img" id="imgs">
+			</div>
+			<input type="button" id="but" onclick="fun();"  value="convert">
+			
+		</form>
+		<!-- <button onclick="fun();">convert</button> -->
+	</div>
+	<div class="cen">
+		
+	<h2 style="display: none;" id="plss"> Plss Wait .. </h2>
+	</div>
+	<!-- ans box -->
+<div id="i" class="result"> ANS;</div>
+
+	
+	
+	
+	
+	<script src="js.js"> </script>
+</body>
+</html>
